@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", "sans-serif";
+}
+
+
+header{
+    position: fixed;
+    left: 0%;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.navbar a{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-right: 10%;
+    text-decoration: none;
+    color: #47bfff;
+    transition: .3s;
+
+
+}
+.navbar a:hover{
+    transform: scale(1.1);
+
+}
+.links {
+    display: flex;
+    flex-grow: .75; /* Allow links to take up remaining space */
+    justify-content: center; /* Center the links */
+    white-space: nowrap;
+}
+
+#logo{
+    top: 0;
+    left: 0;
+}
