@@ -57,13 +57,13 @@ header{
 
 @media only screen and (min-width: 1000px) and (max-width: 1350px) {
     .navbar a {
-        font-size: 1.2rem; /* Reduces font size */
-        margin-right: 5%; /* Adjusts spacing between links */
+        font-size: 1.2rem; 
+        margin-right: 5%; 
     }
 }
 @media only screen and (max-width: 900px) {
     .navbar a {
-        font-size: 1rem; /* Reduces font size */
-        margin-right: 2%; /* Adjusts spacing between links */
+        font-size: 1rem; 
+        margin-right: 2%; 
     }
 }
