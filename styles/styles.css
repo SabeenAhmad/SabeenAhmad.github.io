@@ -1,20 +1,31 @@
 body{
-    margin: 15%;
+    margin: 10%;
     margin-left: 5%;
     background-color: rgb(255, 239, 219);;
 }
-
+.twoBoxes{
+    display: flex;
+    gap: 10%;
+}
 .sabeenPicBox{
     width: 30%;
     background-color: white;
     text-align: center;
     border-radius: 10px;
     padding: 20px;
+    box-shadow: 12px 12px lightcoral;
+    margin: auto;
+}
+.sabeenPicBox #image {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
 }
 .sabeenPicBox #image img{
     height: 300px;
     width: 250px;
     border-radius: 10px;
+    overflow: hidden;
     
 }
 .socialMedia{
@@ -31,4 +42,18 @@ body{
 
 .socialMedia img:hover{
     transform: scale(1.1);    
+}
+
+.aboutMe{
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 12px 12px lightcoral;
+}
+
+.aboutMe h3{
+    padding-top: 3%;
+    font-weight: 300;
+    font-size: 1.5rem;
 }
