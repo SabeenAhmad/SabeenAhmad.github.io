@@ -2,8 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", "sans-serif";
-    color: #47bfff;;
+    font-family: "Poppins", "sans-serif";;
 }
 
 
@@ -14,6 +13,8 @@ header{
     width: 100%;
     display: flex;
     align-items: center;
+    margin-top: 2%;
+    padding-left: 1%;
 
 }
 
@@ -22,6 +23,7 @@ header{
     align-items: center;
     width: 100%;
     justify-content: space-between;
+    color: #47bfff;;
     
 }
 .navbar a{
@@ -30,6 +32,7 @@ header{
     margin-right: 10%;
     text-decoration: none;
     transition: .3s;
+    color: #47bfff;;
 
 
 }
