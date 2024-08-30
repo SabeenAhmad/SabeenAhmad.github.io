@@ -23,4 +23,12 @@ body{
     align-items: center;
     justify-content: center;
     padding-top: 3%;
+    transition: .3s;
+}
+.socialMedia img{
+    transition: .3s;
+}
+
+.socialMedia img:hover{
+    transform: scale(1.1);    
 }
