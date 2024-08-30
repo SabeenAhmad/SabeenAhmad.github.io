@@ -1,30 +1,22 @@
 body{
     margin: 10%;
     margin-left: 5%;
-    background-color: rgb(255, 239, 219);;
+    background-color: #e2dddd;
 }
 .twoBoxes{
     display: flex;
     gap: 10%;
-}
-.sabeenPicBox{
-    width: 30%;
     background-color: white;
-    text-align: center;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 12px 12px lightcoral;
-    margin: auto;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 20px;
 }
-.sabeenPicBox #image {
-    display: flex; 
-    justify-content: center; 
-    align-items: center; 
-}
+
+
 .sabeenPicBox #image img{
-    height: 300px;
-    width: 250px;
-    border-radius: 10px;
+    height: 400px;
+    width: 350px;
+    border-radius: 50%;
     overflow: hidden;
     
 }
@@ -46,14 +38,17 @@ body{
 
 .aboutMe{
     width: 50%;
-    background-color: white;
     border-radius: 10px;
     padding: 20px;
-    box-shadow: 12px 12px lightcoral;
 }
 
 .aboutMe h3{
     padding-top: 3%;
     font-weight: 300;
     font-size: 1.5rem;
+}
+@media only screen and (max-width: 1200px) {
+    .aboutMe h3 {
+        font-size: 1rem; 
+    }
 }
