@@ -1,0 +1,27 @@
+.textbox{
+    padding: 4%;
+    margin: 8%;
+    width: 50%;
+    margin-left: 5%;
+    background-color: #e2dddd;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 20px;
+}
+.textbox p{
+    width: 100%;
+    font-size: 1.2rem;
+}
+.textbox h1{
+    font-size: 2.5rem;
+}
+.textbox #currentProjects h2 {
+    color: rgb(96, 167, 225);
+}
+.textbox h2{
+    font-size: 1.5rem;
+}
+.textbox #finishedProjects h2 {
+    color: rgb(252, 92, 92);
+}
