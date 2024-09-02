@@ -14,7 +14,7 @@ header{
     display: flex;
     align-items: center;
     margin-top: 2%;
-    padding-left: 1%;
+
 
 
 }
@@ -25,6 +25,8 @@ header{
     width: 100%;
     justify-content: space-between;
     color: black;
+    padding-bottom: 2%;
+    border-bottom: 1px solid black;
 
     
 }
@@ -53,6 +55,7 @@ header{
 #logo{
     top: 0;
     left: 0;
+    padding-left: 2%;
 }
 
 @media only screen and (min-width: 900px) and (max-width: 1350px) {
