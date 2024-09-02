@@ -12,3 +12,12 @@
 .textbox ul{
     font-size: 1.3rem;
 }
+
+@media only screen and (max-width: 1220px) {
+    .textbox{
+        width: 50%;
+    }
+    .sportsTitle{
+        font-size: 1.7rem;
+    }
+}
