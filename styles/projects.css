@@ -2,30 +2,71 @@ body {
     background-color: #e2dddd;
 
 }
-.textbox{
-    padding: 4%;
-    margin: 8%;
-    width: 50%;
-    margin-left: 5%;
-    background-color: white;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    box-shadow: 10px 10px 20px;
-}
-.textbox p{
-    width: 100%;
-    font-size: 1.2rem;
-}
-.textbox h1{
+h1{
+    padding-bottom: 20px;
     font-size: 2.5rem;
 }
-.textbox #currentProjects h2 {
+.container{
+    padding: 4%;
+    margin: 8%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}
+
+.currentProjects h2 {
     color: rgb(96, 167, 225);
 }
-.textbox h2{
-    font-size: 1.5rem;
-}
-.textbox #finishedProjects h2 {
+
+.finishedProjects h2 {
     color: rgb(252, 92, 92);
+}
+
+.finishedText{
+    margin-top: 10%;
+}
+.box{
+    background-color: white;
+    margin-bottom: 5%;
+    padding: 3%;
+    box-shadow: 10px 10px 20px;
+    
+
+}
+.box p{
+    width: 50%;
+}
+.box img{
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 90%;
+
+
+}
+.text{
+    display: flex;
+}
+
+
+.text #webimage img{
+    width: 500px;
+    height: 300px;
+    margin-left: 1%
+}
+
+
+@media only screen and (max-width: 1220px) {
+    .text #webimage img{ 
+        width: 400px;
+        margin-left: 5%;
+        
+    }
+    .text{
+        display: flex;
+        gap: 0%;
+    }
+    .box img{
+        margin-left: 50%;
+    }
 }
