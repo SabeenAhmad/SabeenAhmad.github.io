@@ -74,3 +74,32 @@ body{
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
     transform: scale(1.1);
 }
+
+@media only screen and (max-width: 700px) {
+    body {
+        margin: 16px;
+        margin-top: 16px;
+    }
+
+    .contactBox {
+        width: 100%;
+        padding: 20px 14px;
+    }
+
+    .contactBox h1 {
+        font-size: 1.7rem;
+    }
+
+    .contactBox #contact input::placeholder,
+    .contactBox #contact textarea::placeholder,
+    #contact input[type="email"],
+    #contact input[type="text"],
+    #contact textarea,
+    #contact button {
+        font-size: 1rem;
+    }
+
+    #contact button {
+        width: 100%;
+    }
+}

@@ -81,3 +81,38 @@ h1{
         margin-left: 50%;
     }
 }
+
+@media only screen and (max-width: 700px) {
+    .container {
+        padding: 16px;
+        margin: 16px 8px;
+        margin-top: 8px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        line-height: 1.2;
+    }
+
+    .box {
+        padding: 16px;
+    }
+
+    .text {
+        flex-direction: column;
+        gap: 14px;
+    }
+
+    .box p {
+        width: 100%;
+    }
+
+    .box img,
+    .text #webimage img,
+    .text #Squarewebimage img {
+        width: min(100%, 320px);
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+}

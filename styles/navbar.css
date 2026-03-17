@@ -52,6 +52,18 @@ header{
     white-space: nowrap;
 }
 
+.navbar-toggle {
+    display: none;
+    border: 1px solid black;
+    background: white;
+    color: black;
+    font-size: 1.4rem;
+    line-height: 1;
+    padding: 6px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 #logo{
     top: 0;
     left: 0;
@@ -68,5 +80,51 @@ header{
     .navbar a {
         font-size: 1rem; 
         margin-right: 2%; 
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    header {
+        position: static;
+        margin-top: 0;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+        padding: 16px;
+    }
+
+    #logo {
+        padding-left: 0;
+        flex: 1 1 auto;
+    }
+
+    .navbar-toggle {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .links {
+        width: 100%;
+        display: none;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 0;
+    }
+
+    .navbar a {
+        margin-right: 0;
+        width: 100%;
+        font-size: 1rem;
+        padding: 10px 0;
+        border-top: 1px solid #d6d6d6;
+    }
+
+    .navbar.links-open .links {
+        display: flex;
     }
 }
